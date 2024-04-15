@@ -1,0 +1,1074 @@
+2024.04.15 11:07:26 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app' for client Visual Studio Code 1.88.1.
+11:07:27.480 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:07:27.482 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:07:27.482 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:07:27.486 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:07:27.487 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+11:07:27.487 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:07:27.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:07:27.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+11:07:27.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/h_bri/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:07:27.492 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:07:27.492 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:07:27.492 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:07:27.493 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:07:27.493 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:07:27.493 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:07:27.497 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:07:27.498 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:07:27.499 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:07:27.499 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:07:27.499 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:07:27.593 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\metals (H2 2.2)
+11:07:27.594 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:07:27.594 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:07:27.595 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:07:27.596 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:07:27.602 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:07:27.605 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:07:27.605 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:07:27.615 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:07:27.620 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:07:27.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:07:27.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:07:27.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:07:27.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:07:27.628 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:07:27.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:07:27.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:07:27.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:07:27.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:07:27.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:07:27.631 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+11:07:27.635 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.017s)
+11:07:27.637 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:07:27.641 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+11:07:27.643 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+11:07:27.652 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+11:07:27.653 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+11:07:27.654 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+11:07:27.662 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.662 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+11:07:27.666 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.667 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+11:07:27.675 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+11:07:27.676 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+11:07:27.678 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+11:07:27.678 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+11:07:27.679 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+11:07:27.679 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+11:07:27.680 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+11:07:27.681 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+11:07:27.682 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+11:07:27.683 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+11:07:27.684 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.685 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+11:07:27.685 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.686 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+11:07:27.686 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.686 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+11:07:27.687 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.687 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+11:07:27.688 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.688 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+11:07:27.691 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+11:07:27.697 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+11:07:27.699 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+11:07:27.700 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+11:07:27.700 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+11:07:27.701 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+11:07:27.701 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.701 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+11:07:27.702 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+11:07:27.705 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+11:07:27.707 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+11:07:27.708 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+11:07:27.709 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+11:07:27.710 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+11:07:27.710 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+11:07:27.711 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+11:07:27.715 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.715 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+11:07:27.721 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.721 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+11:07:27.722 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.722 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+11:07:27.725 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+11:07:27.728 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+11:07:27.729 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+11:07:27.730 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+11:07:27.731 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+11:07:27.731 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+11:07:27.734 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+11:07:27.734 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+11:07:27.736 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+11:07:27.745 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.024s)
+11:07:27.757 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 50 of 100M
+2024.04.15 11:07:28 WARN  Build server is not auto-connectable.
+2024.04.15 11:07:28 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/model/Contact.java. Output:
+
+avr. 15, 2024 11:07:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.04.15 11:07:41 INFO  no build target found for C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java. Using presentation compiler with project's scala-library version: 3.3.1
+avr. 15, 2024 11:07:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-07-45-583.md
+avr. 15, 2024 11:07:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-07-46-124.md
+avr. 15, 2024 11:07:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-07-57-445.md
+avr. 15, 2024 11:09:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-09-08-635.md
+avr. 15, 2024 11:09:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-09-33-576.md
+avr. 15, 2024 11:10:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-10-05-397.md
+avr. 15, 2024 11:10:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-10-24-725.md
+avr. 15, 2024 11:11:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-11-06-005.md
+avr. 15, 2024 11:11:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-11-06-713.md
+avr. 15, 2024 11:11:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-11-07-059.md
+avr. 15, 2024 11:13:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-10-634.md
+avr. 15, 2024 11:13:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-13-173.md
+avr. 15, 2024 11:13:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-13-463.md
+avr. 15, 2024 11:13:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-24-015.md
+avr. 15, 2024 11:13:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-50-892.md
+avr. 15, 2024 11:13:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-13-51-088.md
+avr. 15, 2024 11:16:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-28-038.md
+avr. 15, 2024 11:16:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-28-535.md
+avr. 15, 2024 11:16:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-32-154.md
+avr. 15, 2024 11:16:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-41-974.md
+avr. 15, 2024 11:16:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-45-401.md
+avr. 15, 2024 11:16:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-47-738.md
+2024.04.15 11:16:47 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/model/Contact.java. Output:
+
+avr. 15, 2024 11:16:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-48-732.md
+2024.04.15 11:16:49 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/model/Contact.java. Output:
+
+2024.04.15 11:16:50 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 11:16:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-16-50-930.md
+avr. 15, 2024 11:23:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-23-54-369.md
+2024.04.15 11:31:06 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/controller/ContactController.java. Output:
+
+2024.04.15 11:31:07 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/controller/ContactController.java. Output:
+
+avr. 15, 2024 11:31:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-07-448.md
+2024.04.15 11:31:08 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:31:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-08-959.md
+avr. 15, 2024 11:31:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-09-460.md
+avr. 15, 2024 11:31:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-09-615.md
+avr. 15, 2024 11:31:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-09-956.md
+avr. 15, 2024 11:31:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-10-689.md
+avr. 15, 2024 11:31:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-13-384.md
+avr. 15, 2024 11:31:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-31-21-448.md
+avr. 15, 2024 11:32:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-32-12-256.md
+avr. 15, 2024 11:32:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-32-54-212.md
+2024.04.15 11:32:59 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/service/ContactService.java. Output:
+
+avr. 15, 2024 11:32:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-32-59-295.md
+2024.04.15 11:33:00 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/service/ContactService.java. Output:
+
+avr. 15, 2024 11:33:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-00-097.md
+2024.04.15 11:33:01 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/service/ContactService.java. Output:
+
+avr. 15, 2024 11:33:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-01-401.md
+2024.04.15 11:33:02 WARN  Using indexes to guess the definition of Contact
+avr. 15, 2024 11:33:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-02-417.md
+2024.04.15 11:33:02 WARN  Using indexes to guess the definition of Contact
+2024.04.15 11:33:03 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/service/ContactService.java. Output:
+
+avr. 15, 2024 11:33:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-03-278.md
+2024.04.15 11:33:07 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/service/ContactService.java. Output:
+
+avr. 15, 2024 11:33:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-07-286.md
+2024.04.15 11:33:08 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\service\ContactService.java
+avr. 15, 2024 11:33:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-08-740.md
+avr. 15, 2024 11:33:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-09-250.md
+2024.04.15 11:33:34 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/repository/ContactRepository.java. Output:
+
+avr. 15, 2024 11:33:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-34-117.md
+avr. 15, 2024 11:33:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-34-743.md
+2024.04.15 11:33:37 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/repository/ContactRepository.java. Output:
+
+2024.04.15 11:33:39 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/main/java/com/yourcompany/repository/ContactRepository.java. Output:
+
+avr. 15, 2024 11:33:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-39-814.md
+2024.04.15 11:33:39 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\repository\ContactRepository.java
+avr. 15, 2024 11:33:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-33-40-102.md
+avr. 15, 2024 11:36:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-14-351.md
+avr. 15, 2024 11:36:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-30-568.md
+avr. 15, 2024 11:36:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-30-748.md
+avr. 15, 2024 11:36:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-31-406.md
+avr. 15, 2024 11:36:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-31-749.md
+avr. 15, 2024 11:36:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-32-857.md
+avr. 15, 2024 11:36:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-33-691.md
+avr. 15, 2024 11:36:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-41-851.md
+avr. 15, 2024 11:36:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-45-170.md
+avr. 15, 2024 11:36:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-45-998.md
+avr. 15, 2024 11:36:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-50-924.md
+avr. 15, 2024 11:36:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-54-199.md
+avr. 15, 2024 11:36:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-55-212.md
+avr. 15, 2024 11:36:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-55-588.md
+avr. 15, 2024 11:36:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-57-522.md
+avr. 15, 2024 11:36:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-57-967.md
+avr. 15, 2024 11:36:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-58-916.md
+avr. 15, 2024 11:36:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-36-59-481.md
+avr. 15, 2024 11:37:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-19-702.md
+avr. 15, 2024 11:37:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-20-510.md
+avr. 15, 2024 11:37:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-23-083.md
+avr. 15, 2024 11:37:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-23-366.md
+avr. 15, 2024 11:37:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-25-404.md
+avr. 15, 2024 11:37:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-27-205.md
+avr. 15, 2024 11:37:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-27-982.md
+avr. 15, 2024 11:37:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-28-693.md
+avr. 15, 2024 11:37:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-31-089.md
+avr. 15, 2024 11:37:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-31-655.md
+2024.04.15 11:37:32 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:37:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-32-724.md
+avr. 15, 2024 11:37:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-33-676.md
+avr. 15, 2024 11:37:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-34-389.md
+avr. 15, 2024 11:37:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-37-34-985.md
+avr. 15, 2024 11:38:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-38-58-927.md
+2024.04.15 11:39:00 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:39:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-00-276.md
+avr. 15, 2024 11:39:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-01-137.md
+avr. 15, 2024 11:39:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-01-840.md
+avr. 15, 2024 11:39:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-02-385.md
+avr. 15, 2024 11:39:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-07-361.md
+avr. 15, 2024 11:39:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-07-844.md
+avr. 15, 2024 11:39:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-09-899.md
+avr. 15, 2024 11:39:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-10-398.md
+avr. 15, 2024 11:39:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-10-936.md
+avr. 15, 2024 11:39:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-11-357.md
+avr. 15, 2024 11:39:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-11-555.md
+avr. 15, 2024 11:39:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-11-871.md
+avr. 15, 2024 11:39:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-12-349.md
+avr. 15, 2024 11:39:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-13-488.md
+avr. 15, 2024 11:39:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-14-550.md
+avr. 15, 2024 11:39:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-15-177.md
+avr. 15, 2024 11:39:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-16-847.md
+avr. 15, 2024 11:39:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-17-771.md
+avr. 15, 2024 11:39:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-39-18-113.md
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+avr. 15, 2024 11:49:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-49-59-909.md
+avr. 15, 2024 11:50:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-05-659.md
+avr. 15, 2024 11:50:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-06-221.md
+avr. 15, 2024 11:50:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 346
+avr. 15, 2024 11:50:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 347
+avr. 15, 2024 11:50:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-15-367.md
+avr. 15, 2024 11:50:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-15-703.md
+avr. 15, 2024 11:50:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-16-349.md
+avr. 15, 2024 11:50:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-20-434.md
+2024.04.15 11:50:21 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:50:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-21-450.md
+avr. 15, 2024 11:50:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-25-433.md
+avr. 15, 2024 11:50:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-29-091.md
+avr. 15, 2024 11:50:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-29-413.md
+avr. 15, 2024 11:50:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-29-667.md
+avr. 15, 2024 11:50:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-36-015.md
+avr. 15, 2024 11:50:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-37-171.md
+avr. 15, 2024 11:50:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-37-730.md
+avr. 15, 2024 11:50:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-38-283.md
+avr. 15, 2024 11:50:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-38-675.md
+avr. 15, 2024 11:50:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+avr. 15, 2024 11:50:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-39-115.md
+avr. 15, 2024 11:50:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-39-645.md
+avr. 15, 2024 11:50:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-40-174.md
+avr. 15, 2024 11:50:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-40-726.md
+avr. 15, 2024 11:50:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-42-164.md
+avr. 15, 2024 11:50:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-42-424.md
+2024.04.15 11:50:42 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:50:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-50-42-746.md
+avr. 15, 2024 11:50:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 415
+avr. 15, 2024 11:51:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-48-961.md
+avr. 15, 2024 11:51:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-52-124.md
+avr. 15, 2024 11:51:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-53-294.md
+avr. 15, 2024 11:51:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-53-753.md
+avr. 15, 2024 11:51:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-54-910.md
+avr. 15, 2024 11:51:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-51-59-556.md
+avr. 15, 2024 11:56:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-01-480.md
+avr. 15, 2024 11:56:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-06-904.md
+avr. 15, 2024 11:56:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-09-843.md
+avr. 15, 2024 11:56:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-10-966.md
+avr. 15, 2024 11:56:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-11-469.md
+avr. 15, 2024 11:56:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-13-895.md
+avr. 15, 2024 11:56:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-17-641.md
+avr. 15, 2024 11:56:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-18-307.md
+avr. 15, 2024 11:56:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-24-332.md
+avr. 15, 2024 11:56:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-25-737.md
+2024.04.15 11:56:30 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 11:56:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-56-30-484.md
+avr. 15, 2024 11:58:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-29-573.md
+avr. 15, 2024 11:58:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-30-747.md
+avr. 15, 2024 11:58:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-31-622.md
+avr. 15, 2024 11:58:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-33-210.md
+avr. 15, 2024 11:58:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-33-443.md
+avr. 15, 2024 11:58:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-34-595.md
+avr. 15, 2024 11:58:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-34-769.md
+avr. 15, 2024 11:58:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-35-045.md
+avr. 15, 2024 11:58:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-36-770.md
+avr. 15, 2024 11:58:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-37-078.md
+avr. 15, 2024 11:58:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-37-441.md
+avr. 15, 2024 11:58:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-38-118.md
+avr. 15, 2024 11:58:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-39-051.md
+avr. 15, 2024 11:58:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-39-241.md
+avr. 15, 2024 11:58:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-40-799.md
+avr. 15, 2024 11:58:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-41-094.md
+avr. 15, 2024 11:58:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-42-959.md
+avr. 15, 2024 11:58:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-44-076.md
+avr. 15, 2024 11:58:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-44-764.md
+avr. 15, 2024 11:58:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-45-504.md
+avr. 15, 2024 11:58:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-45-854.md
+avr. 15, 2024 11:58:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-47-147.md
+avr. 15, 2024 11:58:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-48-507.md
+avr. 15, 2024 11:58:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-48-790.md
+avr. 15, 2024 11:58:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-49-826.md
+avr. 15, 2024 11:58:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-50-559.md
+avr. 15, 2024 11:58:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-51-262.md
+avr. 15, 2024 11:58:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-51-658.md
+avr. 15, 2024 11:58:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_11-58-54-720.md
+avr. 15, 2024 12:05:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-03-152.md
+avr. 15, 2024 12:05:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-04-237.md
+avr. 15, 2024 12:05:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-07-072.md
+avr. 15, 2024 12:05:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-08-470.md
+avr. 15, 2024 12:05:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-10-557.md
+avr. 15, 2024 12:05:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-11-120.md
+avr. 15, 2024 12:05:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-13-972.md
+avr. 15, 2024 12:05:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-15-544.md
+avr. 15, 2024 12:05:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-16-460.md
+avr. 15, 2024 12:05:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-17-255.md
+2024.04.15 12:05:18 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:05:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-18-804.md
+avr. 15, 2024 12:05:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-22-121.md
+avr. 15, 2024 12:05:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-23-398.md
+avr. 15, 2024 12:05:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-23-829.md
+avr. 15, 2024 12:05:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-24-137.md
+avr. 15, 2024 12:05:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-35-075.md
+avr. 15, 2024 12:05:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-41-689.md
+avr. 15, 2024 12:05:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-42-056.md
+avr. 15, 2024 12:05:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-05-56-908.md
+avr. 15, 2024 12:06:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-06-05-596.md
+avr. 15, 2024 12:07:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-07-11-653.md
+avr. 15, 2024 12:08:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-31-993.md
+2024.04.15 12:08:33 INFO  time: code lens generation in 2.29s
+2024.04.15 12:08:33 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:08:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-33-805.md
+avr. 15, 2024 12:08:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-35-651.md
+avr. 15, 2024 12:08:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-38-397.md
+avr. 15, 2024 12:08:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-38-644.md
+2024.04.15 12:08:39 INFO  time: code lens generation in 1.53s
+avr. 15, 2024 12:08:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+2024.04.15 12:08:39 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:08:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-39-928.md
+avr. 15, 2024 12:08:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-40-443.md
+avr. 15, 2024 12:08:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-41-014.md
+avr. 15, 2024 12:08:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-41-679.md
+avr. 15, 2024 12:08:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-42-079.md
+avr. 15, 2024 12:08:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-42-749.md
+avr. 15, 2024 12:08:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-43-197.md
+avr. 15, 2024 12:08:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-48-048.md
+avr. 15, 2024 12:08:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-48-713.md
+avr. 15, 2024 12:08:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-49-038.md
+avr. 15, 2024 12:08:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-51-571.md
+avr. 15, 2024 12:08:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-51-901.md
+avr. 15, 2024 12:08:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-52-895.md
+2024.04.15 12:08:53 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:08:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-53-265.md
+avr. 15, 2024 12:08:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-54-639.md
+avr. 15, 2024 12:08:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-55-329.md
+2024.04.15 12:08:55 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:08:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-55-897.md
+avr. 15, 2024 12:08:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-59-138.md
+avr. 15, 2024 12:08:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-59-206.md
+avr. 15, 2024 12:08:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-08-59-426.md
+avr. 15, 2024 12:09:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-09-00-635.md
+avr. 15, 2024 12:09:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-09-01-443.md
+avr. 15, 2024 12:09:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-09-02-233.md
+2024.04.15 12:09:02 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:09:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-09-02-654.md
+avr. 15, 2024 12:09:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-09-06-872.md
+avr. 15, 2024 12:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 690
+avr. 15, 2024 12:11:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-51-324.md
+avr. 15, 2024 12:11:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-51-610.md
+avr. 15, 2024 12:11:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-51-823.md
+avr. 15, 2024 12:11:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-52-400.md
+avr. 15, 2024 12:11:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-53-593.md
+avr. 15, 2024 12:11:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-55-105.md
+avr. 15, 2024 12:11:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-57-683.md
+avr. 15, 2024 12:11:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-58-611.md
+avr. 15, 2024 12:11:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-11-59-233.md
+avr. 15, 2024 12:12:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-12-00-146.md
+2024.04.15 12:12:01 INFO  time: code lens generation in 1.38s
+2024.04.15 12:12:01 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\controller\ContactController.java
+avr. 15, 2024 12:12:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-12-02-231.md
+avr. 15, 2024 12:14:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-14-59-798.md
+avr. 15, 2024 12:42:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_12-42-43-468.md
+avr. 15, 2024 2:40:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-40-57-814.md
+2024.04.15 14:40:58 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+2024.04.15 14:40:58 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+2024.04.15 14:40:58 INFO  time: code lens generation in 2.23s
+2024.04.15 14:40:58 INFO  time: code lens generation in 1.74s
+avr. 15, 2024 2:41:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-41-00-154.md
+2024.04.15 14:41:02 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+2024.04.15 14:41:02 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 2:41:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-41-02-741.md
+avr. 15, 2024 2:41:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-41-03-275.md
+avr. 15, 2024 2:46:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+avr. 15, 2024 2:49:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-23-930.md
+avr. 15, 2024 2:49:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-26-056.md
+avr. 15, 2024 2:49:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-27-089.md
+avr. 15, 2024 2:49:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-32-092.md
+avr. 15, 2024 2:49:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-33-772.md
+avr. 15, 2024 2:49:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-34-890.md
+avr. 15, 2024 2:49:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-37-308.md
+avr. 15, 2024 2:49:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-38-302.md
+avr. 15, 2024 2:49:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-38-431.md
+avr. 15, 2024 2:49:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-39-230.md
+avr. 15, 2024 2:49:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-39-659.md
+avr. 15, 2024 2:49:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-41-237.md
+avr. 15, 2024 2:49:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-46-145.md
+avr. 15, 2024 2:49:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-47-032.md
+avr. 15, 2024 2:49:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-47-724.md
+avr. 15, 2024 2:49:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-48-376.md
+avr. 15, 2024 2:49:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-49-154.md
+avr. 15, 2024 2:49:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-49-773.md
+avr. 15, 2024 2:49:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-50-312.md
+avr. 15, 2024 2:49:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-50-896.md
+avr. 15, 2024 2:49:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-51-872.md
+avr. 15, 2024 2:49:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-53-813.md
+avr. 15, 2024 2:49:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-55-538.md
+avr. 15, 2024 2:49:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-58-325.md
+avr. 15, 2024 2:49:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-59-160.md
+avr. 15, 2024 2:49:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-49-59-572.md
+avr. 15, 2024 2:50:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-00-937.md
+avr. 15, 2024 2:50:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-01-461.md
+avr. 15, 2024 2:50:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-04-109.md
+avr. 15, 2024 2:50:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-06-473.md
+avr. 15, 2024 2:50:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-06-716.md
+avr. 15, 2024 2:50:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-07-159.md
+avr. 15, 2024 2:50:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-08-831.md
+avr. 15, 2024 2:50:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-09-386.md
+avr. 15, 2024 2:50:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-09-762.md
+avr. 15, 2024 2:50:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-09-921.md
+avr. 15, 2024 2:50:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-10-064.md
+avr. 15, 2024 2:50:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-11-721.md
+avr. 15, 2024 2:50:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-12-584.md
+avr. 15, 2024 2:50:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-12-705.md
+avr. 15, 2024 2:50:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-13-181.md
+avr. 15, 2024 2:50:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-15-416.md
+avr. 15, 2024 2:50:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-50-318.md
+avr. 15, 2024 2:50:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-50-920.md
+avr. 15, 2024 2:50:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-52-662.md
+avr. 15, 2024 2:50:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-53-737.md
+2024.04.15 14:50:54 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 2:50:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-50-54-222.md
+avr. 15, 2024 2:51:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-39-618.md
+avr. 15, 2024 2:51:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-40-355.md
+avr. 15, 2024 2:51:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-40-984.md
+avr. 15, 2024 2:51:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-41-514.md
+avr. 15, 2024 2:51:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-43-729.md
+avr. 15, 2024 2:51:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-44-856.md
+avr. 15, 2024 2:51:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-46-533.md
+avr. 15, 2024 2:51:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-47-824.md
+avr. 15, 2024 2:51:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-49-610.md
+avr. 15, 2024 2:51:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-50-307.md
+avr. 15, 2024 2:51:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-51-52-977.md
+avr. 15, 2024 2:52:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-52-39-491.md
+avr. 15, 2024 2:52:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-52-41-103.md
+avr. 15, 2024 2:53:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-53-00-455.md
+avr. 15, 2024 2:53:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 920
+avr. 15, 2024 2:53:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-53-58-567.md
+avr. 15, 2024 2:54:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-54-00-647.md
+avr. 15, 2024 2:59:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-39-769.md
+2024.04.15 14:59:39 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 2:59:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-40-773.md
+2024.04.15 14:59:41 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+2024.04.15 14:59:41 INFO  time: code lens generation in 1.63s
+2024.04.15 14:59:41 INFO  time: code lens generation in 2.91s
+avr. 15, 2024 2:59:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-41-900.md
+avr. 15, 2024 2:59:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-43-280.md
+avr. 15, 2024 2:59:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-44-072.md
+avr. 15, 2024 2:59:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-48-553.md
+2024.04.15 14:59:48 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+2024.04.15 14:59:48 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 2:59:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-49-139.md
+avr. 15, 2024 2:59:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-54-683.md
+avr. 15, 2024 2:59:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-55-338.md
+2024.04.15 14:59:59 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+avr. 15, 2024 2:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-59-136.md
+2024.04.15 14:59:59 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+avr. 15, 2024 2:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_14-59-59-913.md
+2024.04.15 15:00:02 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+avr. 15, 2024 3:00:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-03-132.md
+2024.04.15 15:00:03 WARN  Running javac-semanticdb failed for file:///C:/Users/h_bri/Documents/Intégration_Continue/contacts-messaging-app/contacts-messaging-app/src/test/java/com/yourcompany/model/ContactTest.java. Output:
+
+avr. 15, 2024 3:00:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-03-815.md
+2024.04.15 15:00:04 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 3:00:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-04-769.md
+2024.04.15 15:00:05 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 3:00:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-05-513.md
+avr. 15, 2024 3:00:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-06-151.md
+avr. 15, 2024 3:00:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-09-121.md
+avr. 15, 2024 3:00:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-00-09-877.md
+avr. 15, 2024 3:01:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-01-50-758.md
+avr. 15, 2024 3:01:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-01-51-557.md
+avr. 15, 2024 3:02:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-32-309.md
+avr. 15, 2024 3:02:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-32-649.md
+avr. 15, 2024 3:02:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-49-677.md
+avr. 15, 2024 3:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-50-661.md
+avr. 15, 2024 3:02:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-58-114.md
+avr. 15, 2024 3:02:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-58-218.md
+avr. 15, 2024 3:02:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-02-59-070.md
+avr. 15, 2024 3:03:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-04-636.md
+avr. 15, 2024 3:03:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-13-008.md
+avr. 15, 2024 3:03:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-14-932.md
+avr. 15, 2024 3:03:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-21-611.md
+avr. 15, 2024 3:03:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-24-071.md
+avr. 15, 2024 3:03:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-25-980.md
+avr. 15, 2024 3:03:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-26-226.md
+avr. 15, 2024 3:03:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-36-161.md
+avr. 15, 2024 3:03:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-37-755.md
+avr. 15, 2024 3:03:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-38-099.md
+avr. 15, 2024 3:03:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-38-852.md
+avr. 15, 2024 3:03:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-03-39-765.md
+2024.04.15 15:11:04 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\test\java\com\yourcompany\model\ContactTest.java
+avr. 15, 2024 3:11:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-11-05-039.md
+avr. 15, 2024 3:11:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-11-10-342.md
+avr. 15, 2024 3:11:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-11-10-885.md
+avr. 15, 2024 3:11:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-11-11-696.md
+avr. 15, 2024 3:12:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-12-55-685.md
+avr. 15, 2024 3:13:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-00-645.md
+avr. 15, 2024 3:13:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-01-215.md
+2024.04.15 15:13:01 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 3:13:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-01-950.md
+avr. 15, 2024 3:13:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-08-846.md
+2024.04.15 15:13:09 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 3:13:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-09-447.md
+avr. 15, 2024 3:13:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-12-322.md
+avr. 15, 2024 3:13:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-14-336.md
+avr. 15, 2024 3:13:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-15-783.md
+avr. 15, 2024 3:13:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-20-257.md
+avr. 15, 2024 3:13:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-21-059.md
+avr. 15, 2024 3:13:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-22-124.md
+avr. 15, 2024 3:13:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-23-446.md
+2024.04.15 15:13:25 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 3:13:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-25-859.md
+avr. 15, 2024 3:13:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-26-399.md
+avr. 15, 2024 3:13:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-29-118.md
+avr. 15, 2024 3:13:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-36-611.md
+avr. 15, 2024 3:13:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-37-309.md
+avr. 15, 2024 3:13:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-40-425.md
+avr. 15, 2024 3:13:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-43-357.md
+avr. 15, 2024 3:13:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-43-442.md
+2024.04.15 15:13:43 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 3:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1143
+2024.04.15 15:13:43 WARN  no build target for: C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\src\main\java\com\yourcompany\model\Contact.java
+avr. 15, 2024 3:13:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\h_bri\Documents\Intégration_Continue\contacts-messaging-app\contacts-messaging-app\.metals\.reports\metals-full\2024-04-15\r_compiler-error_15-13-43-864.md

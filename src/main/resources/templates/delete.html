@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Supprimer Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Êtes-vous sûr de vouloir supprimer ce contact ?</h1>
+    <form th:action="@{'/contacts/delete/' + ${contact.id}}" method="post">
+        <input type="hidden" name="_method" value="delete" />
+        <button type="submit">Supprimer</button>
+    </form>
+    <a href="/contacts">Annuler</a>
+</body>
+</html>
